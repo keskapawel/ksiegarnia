@@ -1,3 +1,4 @@
+using System.Reflection;
 using BookStore.DataBase;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,11 +12,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+
+// Baza danych
 builder.Services.AddDbContext<BookStoreDbContext>
     (options => options.UseSqlServer(builder.Configuration.GetConnectionString("BookStore")));
 
 
 
+// AutoMapper
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 var app = builder.Build();
 
