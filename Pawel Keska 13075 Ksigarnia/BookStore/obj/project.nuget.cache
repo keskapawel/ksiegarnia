@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "71KTAreQ6aa6PUhDCLrVRhHwcQYe2ZCjJn0klUEnd0iSIwSnI3ngzSJ4Nwg1XYZ60D3hDCFABkBbYXx+6NklFQ==",
+  "dgSpecHash": "6Cnnjd3VU8cFAv56yhA1it4WMaVxMXfU9Eq3QsH6FnxUWkzSJJsdliZkn2sIwtu6FtECZyHX+4/qVEo0fAH8aA==",
   "success": true,
-  "projectFilePath": "/Users/pawelkeska/Downloads/PawelKeskaBookStore-main 2/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj",
+  "projectFilePath": "/Users/Project/ksiegarnia/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj",
   "expectedPackageFiles": [
     "/Users/pawelkeska/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/pawelkeska/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pawelkeska/Downloads/PawelKeskaBookStore-main 2/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj": {}
+    "/Users/Project/ksiegarnia/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj": {}
   },
   "projects": {
-    "/Users/pawelkeska/Downloads/PawelKeskaBookStore-main 2/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj": {
+    "/Users/Project/ksiegarnia/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pawelkeska/Downloads/PawelKeskaBookStore-main 2/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj",
+        "projectUniqueName": "/Users/Project/ksiegarnia/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "/Users/pawelkeska/Downloads/PawelKeskaBookStore-main 2/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj",
+        "projectPath": "/Users/Project/ksiegarnia/Pawel Keska 13075 Ksigarnia/BookStore/BookStore.csproj",
         "packagesPath": "/Users/pawelkeska/.nuget/packages/",
-        "outputPath": "/Users/pawelkeska/Downloads/PawelKeskaBookStore-main 2/Pawel Keska 13075 Ksigarnia/BookStore/obj/",
+        "outputPath": "/Users/Project/ksiegarnia/Pawel Keska 13075 Ksigarnia/BookStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pawelkeska/.config/NuGet/NuGet.Config"

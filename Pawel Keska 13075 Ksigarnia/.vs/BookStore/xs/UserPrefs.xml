@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{EBE2D73E-E933-452A-A02E-90576A0BBC8E}|Default">
+  <MonoDevelop.Ide.ItemProperties.BookStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/Controllers/BooksController.cs">
+    <Files>
+      <File FileName="BookStore/Controllers/BooksController.cs" Line="9" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookStore" expanded="True">
+            <Node name="BookStore" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BooksController.cs" selected="True" />
+              </Node>
+              <Node name="DataBase" expanded="True" />
+              <Node name="DataBaseEntities" expanded="True" />
+              <Node name="DTOModels" expanded="True" />
+              <Node name="Exception" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

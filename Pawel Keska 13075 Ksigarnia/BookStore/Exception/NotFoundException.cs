@@ -1,8 +1,10 @@
-﻿namespace BookStore.Exception;
-
-public class NotFoundException:System.Exception
+﻿namespace BookStore.Exception
 {
-    public NotFoundException(string message) : base(message)
+
+    public class NotFoundException : System.Exception
     {
+        public NotFoundException(string message) : base(message)
+        {
+        }
     }
 }

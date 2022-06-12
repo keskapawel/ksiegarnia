@@ -2,16 +2,18 @@
 using BookStore.DataBaseEntities;
 using BookStore.DTOModels;
 
-namespace BookStore;
-
-public class AutoMapperProfile : Profile
+namespace BookStore
 {
-    public AutoMapperProfile()
+
+    public class AutoMapperProfile : Profile
     {
-        CreateMap<UserLoginDto, User>();
-        CreateMap<UserRegisterDto, User>();
-        CreateMap<Book, BookDto>();
-        CreateMap<Book, CreateBookDto>();
-        CreateMap<Book, UpdateBookDto>();
+        public AutoMapperProfile()
+        {
+            CreateMap<UserLoginDto, User>();
+            CreateMap<UserRegisterDto, User>();
+            CreateMap<Book, BookDto>();
+            CreateMap<Book, CreateBookDto>();
+            CreateMap<Book, UpdateBookDto>();
+        }
     }
 }

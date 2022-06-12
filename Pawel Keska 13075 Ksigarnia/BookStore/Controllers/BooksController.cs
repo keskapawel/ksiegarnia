@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BookStore.Controllers;
+namespace BookStore.Controllers { 
 
-public class BooksController : Controller
-{
-    
+    public class BooksController : Controller
+    {
+
+    }
 }
