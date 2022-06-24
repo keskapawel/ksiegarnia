@@ -14,7 +14,9 @@ namespace BookStore.DTOModels
         public string Publisher { get; set; }
         [Required]
         public int Year { get; set; }
+        [Required]
         public int Pages { get; set; }
+        [Required]
         public string ImageUrl { get; set; }
         [Required]
         public decimal Price { get; set; }
