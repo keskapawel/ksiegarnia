@@ -1,19 +1,28 @@
 ﻿<Properties StartupConfiguration="{EBE2D73E-E933-452A-A02E-90576A0BBC8E}|Default">
   <MonoDevelop.Ide.ItemProperties.BookStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/Controllers/BooksController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookStore/DataBaseEntities/BookCategory.cs">
     <Files>
       <File FileName="BookStore/Controllers/BooksController.cs" Line="9" Column="2" />
+      <File FileName="BookStore/DataBase/BookStoreDbContext.cs" />
+      <File FileName="BookStore/DataBaseEntities/Book.cs" Line="1" Column="1" />
+      <File FileName="BookStore/DataBaseEntities/BookCategory.cs" Line="12" Column="2" />
+      <File FileName="BookStore/DataBaseEntities/Role.cs" Line="1" Column="1" />
+      <File FileName="BookStore/DataBaseEntities/User.cs" />
+      <File FileName="BookStore/DTOModels/BookDto.cs" Line="1" Column="1" />
+      <File FileName="BookStore/Exception/BadRequestException.cs" />
+      <File FileName="BookStore/Migrations/20220525094352_End Migration.cs" />
+      <File FileName="BookStore/Services/BookService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BookStore" expanded="True">
             <Node name="BookStore" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BooksController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="DataBase" expanded="True" />
-              <Node name="DataBaseEntities" expanded="True" />
+              <Node name="DataBaseEntities" expanded="True">
+                <Node name="BookCategory.cs" selected="True" />
+              </Node>
               <Node name="DTOModels" expanded="True" />
               <Node name="Exception" expanded="True" />
               <Node name="Migrations" expanded="True" />

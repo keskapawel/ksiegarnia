@@ -1,4 +1,6 @@
-﻿namespace BookStore.DTOModels
+﻿using BookStore.DataBaseEntities;
+
+namespace BookStore.DTOModels;
 {
 
     public class BookDto
@@ -12,5 +14,6 @@
         public string ImageUrl { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
+        public BookCategory Category { get; set; }
     }
 }

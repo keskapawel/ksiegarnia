@@ -14,6 +14,6 @@ namespace BookStore.DataBaseEntities
         public string? Address { get; set; }
         public int RoleId { get; set; }
         public virtual Role Role { get; set; }
-
+        public List<Book> BoughtBooks { get; set; }
     }
 }

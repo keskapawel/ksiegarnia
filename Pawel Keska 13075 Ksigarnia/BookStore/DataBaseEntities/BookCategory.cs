@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookStore.DataBaseEntities;
-
-public class BookCategory
+namespace BookStore.DataBaseEntities
 {
-    [Key]
-    public int Id { get; set; }
-    public string Name { get; set; }
+
+    public class BookCategory
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
 }
