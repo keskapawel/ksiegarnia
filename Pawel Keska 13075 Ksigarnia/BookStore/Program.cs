@@ -40,34 +40,37 @@ builder.Services.AddScoped<IUserContextService, UserContextService>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IBookCategoryService, BookCategoryService>();
 builder.Services.AddHttpContextAccessor();
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+var server = builder.Configuration["DbServer"] ?? "postgre";
+var port = builder.Configuration["DbPort"] ?? "5432";
+var user = builder.Configuration["DBUser"] ?? "postgres";
+var password = builder.Configuration["DBPassword"] ?? "postgres123";
+var database = builder.Configuration["Database"] ?? "BookStore";
 
-// Baza danych
-builder.Services.AddDbContext<BookStoreDbContext>
-    (options => options.UseSqlServer(builder.Configuration.GetConnectionString("BookStore")));
-
-
+builder.Services.AddDbContext<BookStoreDbContext>(options =>
+    options.UseNpgsql($"Server={server}; Port={port};Database={database};Username ={user};Password={password}")
+);
 
 // AutoMapper
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+DatabaseSeed.PrepPopulation(app);
 app.MapControllers();
 
 app.Run();
