@@ -5,7 +5,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace BookStore.Migrations
 {
-    public partial class Final : Migration
+    public partial class Final2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

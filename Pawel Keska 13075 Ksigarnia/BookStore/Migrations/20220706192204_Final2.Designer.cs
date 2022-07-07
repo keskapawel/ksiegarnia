@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(BookStoreDbContext))]
-    [Migration("20220705132418_Final")]
-    partial class Final
+    [Migration("20220706192204_Final2")]
+    partial class Final2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

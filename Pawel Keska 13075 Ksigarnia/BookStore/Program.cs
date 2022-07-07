@@ -70,7 +70,7 @@ app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-DatabaseSeed.PrepPopulation(app);
+// DatabaseSeed.PrepPopulation(app);
 app.MapControllers();
 
 app.Run();

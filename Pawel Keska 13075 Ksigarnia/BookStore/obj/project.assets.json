@@ -2185,28 +2185,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\pawkes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\Desktop\\PKBS\\Pawel Keska 13075 Ksigarnia\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\pawkes\\Desktop\\project\\ksiegarnia\\Pawel Keska 13075 Ksigarnia\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\danie\\Desktop\\PKBS\\Pawel Keska 13075 Ksigarnia\\BookStore\\BookStore.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\Desktop\\PKBS\\Pawel Keska 13075 Ksigarnia\\BookStore\\obj\\",
+      "projectPath": "C:\\Users\\pawkes\\Desktop\\project\\ksiegarnia\\Pawel Keska 13075 Ksigarnia\\BookStore\\BookStore.csproj",
+      "packagesPath": "C:\\Users\\pawkes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pawkes\\Desktop\\project\\ksiegarnia\\Pawel Keska 13075 Ksigarnia\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\pawkes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
